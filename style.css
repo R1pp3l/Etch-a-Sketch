@@ -1,0 +1,24 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.container {
+    border: 10px solid blue;
+    width: 960px;
+    height: 960px;
+    overflow: hidden;
+}
+
+.square {
+    width: calc(960px/16);
+    height: calc(960px/16);
+    float: left;
+}
+
+.hovered {
+    background-color : red;
+}
